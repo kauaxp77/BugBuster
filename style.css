@@ -177,10 +177,11 @@ canvas {
     backdrop-filter: blur(1.5px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: safe center;
     align-items: center;
     gap: 10px;
     padding: 16px;
+    overflow-y: auto;
     text-align: center;
     visibility: hidden;
     opacity: 0;
@@ -477,18 +478,28 @@ kbd {
 }
 
 @media (max-width: 560px) {
-    .menu-grid {
-        grid-template-columns: 1fr;
+    .overlay {
+        gap: 6px;
+        padding: 10px;
     }
     .overlay h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
-    .legend,
-    .leaderboard {
-        font-size: 11px;
+    .overlay p,
+    .terminal-line,
+    .level-stats {
+        font-size: 12px;
     }
-    #menu-screen .legend:nth-child(2) {
+    .overlay button {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+    .menu-grid {
         display: none;
+    }
+    .leaderboard {
+        min-width: 0;
+        font-size: 11px;
     }
     .stats {
         gap: 10px;

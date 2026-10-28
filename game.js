@@ -321,7 +321,7 @@ function togglePause() {
 function showGameOver() {
     state = 'GAMEOVER';
     const previousBest = Scores.best();
-    lastRecordIndex = Scores.save(game.score, game.level);
+    lastRecordIndex = game.score > 0 ? Scores.save(game.score, game.level) : -1;
     ui.gameOverMsg.textContent = pick(GAME_OVER_MESSAGES);
     ui.finalScore.textContent = game.score;
     ui.newRecord.classList.toggle('show', game.score > previousBest && game.score > 0);
