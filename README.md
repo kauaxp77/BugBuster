@@ -31,21 +31,21 @@ Um jogo retro-cyberpunk 2D de labirinto, desenvolvido inteiramente com as tecnol
 
 ## 📁 Estrutura do Projeto
 - `index.html`: Canvas, HUD e telas de menu, pausa, vitória e game over.
-- `style.css`: Estética de terminal hacker neon e layout responsivo.
-- `logic.js`: Classe `GameLogic` pura — mapas, movimento, IA dos bugs, itens, vidas e pontuação (testável no Node).
-- `game.js`: Loop com `requestAnimationFrame` + passo fixo de 60 ticks/s, desenho, partículas, áudio e entrada.
-- `test.js` / `test.html`: Testes automatizados da lógica.
-- `docs/telas/`: Capturas de tela usadas na documentação.
-- `Documentacao_BugBuster.docx`: Documentação de projeto Frontend.
+- `css/style.css`: Estética de terminal hacker neon e layout responsivo.
+- `src/logic.js`: Classe `GameLogic` pura — mapas, movimento, IA dos bugs, itens, vidas e pontuação (testável no Node).
+- `src/game.js`: Loop com `requestAnimationFrame` + passo fixo de 60 ticks/s, desenho, partículas, áudio e entrada.
+- `tests/test.js` / `tests/test.html`: Testes automatizados da lógica.
+- `docs/`: Documentação do projeto (relatórios, apresentação e capturas de tela).
+  - `docs/telas/`: Capturas de tela do jogo.
 
 ## 🚀 Como Executar
 Abra o arquivo `index.html` em qualquer navegador moderno. Não requer servidor, Node.js ou bundler.
 
 ### Testes
 ```bash
-node test.js
+node tests/test.js
 ```
-Ou abra `test.html` no navegador.
+Ou abra `tests/test.html` no navegador.
 
 ---
 *Projeto desenvolvido para a disciplina de Aplicações Front End — UniProjeção.*

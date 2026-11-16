@@ -1,7 +1,7 @@
 // Testes da lógica do Bug Buster.
-// Navegador: abra test.html | Node: node test.js
+// Navegador: abra tests/test.html | Node: node tests/test.js
 if (typeof module !== 'undefined' && module.exports) {
-    ({ GameLogic, TILE, MAPS } = require('./logic.js'));
+    ({ GameLogic, TILE, MAPS } = require('../src/logic.js'));
 }
 
 let failures = 0;
