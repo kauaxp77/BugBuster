@@ -4,7 +4,9 @@ Um jogo retro-cyberpunk 2D de labirinto, desenvolvido inteiramente com as tecnol
 
 ### ▶ [Jogue online: kauaxp77.github.io/Jogo_frontend](https://kauaxp77.github.io/Jogo_frontend/)
 
-Funciona no computador e no celular, sem instalar nada.
+Funciona no computador e no celular, sem instalar nada. Aponte a câmera do celular para o QR code:
+
+<img src="docs/qrcode.png" alt="QR code para jogar o Bug Buster online" width="220">
 
 ![Bug Buster](docs/telas/04_cafe_powerup.png)
 
@@ -39,8 +41,12 @@ Funciona no computador e no celular, sem instalar nada.
 - `src/logic.js`: Classe `GameLogic` pura — mapas, movimento, IA dos bugs, itens, vidas e pontuação (testável no Node).
 - `src/game.js`: Loop com `requestAnimationFrame` + passo fixo de 60 ticks/s, desenho, partículas, áudio e entrada.
 - `tests/test.js` / `tests/test.html`: Testes automatizados da lógica.
-- `docs/`: Documentação do projeto (relatórios, apresentação e capturas de tela).
+- `docs/`: Documentação do projeto, apresentação, QR code e capturas de tela.
   - `docs/telas/`: Capturas de tela do jogo.
+
+## 📄 Documentação e Apresentação
+- [Documentação do projeto (PDF)](docs/Documentacao_BugBuster.pdf) · [versão Word](docs/Documentacao_BugBuster.docx)
+- [Apresentação final (PDF)](docs/Apresentacao_BugBuster.pdf) · [versão PowerPoint](docs/Apresentacao_BugBuster.pptx)
 
 ## 🚀 Como Executar
 Jogue direto em https://kauaxp77.github.io/Jogo_frontend/ (publicado pelo GitHub Pages a cada push no `main`).
