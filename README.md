@@ -2,6 +2,10 @@
 
 Um jogo retro-cyberpunk 2D de labirinto, desenvolvido inteiramente com as tecnologias base da Web (**HTML5, CSS3 e JavaScript Vanilla**), sem dependência de bibliotecas externas ou frameworks.
 
+### ▶ [Jogue online: kauaxp77.github.io/Jogo_frontend](https://kauaxp77.github.io/Jogo_frontend/)
+
+Funciona no computador e no celular, sem instalar nada.
+
 ![Bug Buster](docs/telas/04_cafe_powerup.png)
 
 ## 🎮 Como Jogar
@@ -39,7 +43,9 @@ Um jogo retro-cyberpunk 2D de labirinto, desenvolvido inteiramente com as tecnol
   - `docs/telas/`: Capturas de tela do jogo.
 
 ## 🚀 Como Executar
-Abra o arquivo `index.html` em qualquer navegador moderno. Não requer servidor, Node.js ou bundler.
+Jogue direto em https://kauaxp77.github.io/Jogo_frontend/ (publicado pelo GitHub Pages a cada push no `main`).
+
+Para rodar localmente, abra o arquivo `index.html` em qualquer navegador moderno. Não requer servidor, Node.js ou bundler.
 
 ### Testes
 ```bash
