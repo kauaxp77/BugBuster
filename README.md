@@ -2,7 +2,7 @@
 
 Um jogo retro-cyberpunk 2D de labirinto, desenvolvido inteiramente com as tecnologias base da Web (**HTML5, CSS3 e JavaScript Vanilla**), sem dependência de bibliotecas externas ou frameworks.
 
-### ▶ [Jogue online: kauaxp77.github.io/Jogo_frontend](https://kauaxp77.github.io/Jogo_frontend/)
+### ▶ [Jogue online: kauaxp77.github.io/BugBuster](https://kauaxp77.github.io/BugBuster/)
 
 Funciona no computador e no celular, sem instalar nada. Aponte a câmera do celular para o QR code:
 
@@ -49,7 +49,7 @@ Funciona no computador e no celular, sem instalar nada. Aponte a câmera do celu
 - [Apresentação final (PDF)](docs/Apresentacao_BugBuster.pdf) · [versão PowerPoint](docs/Apresentacao_BugBuster.pptx)
 
 ## 🚀 Como Executar
-Jogue direto em https://kauaxp77.github.io/Jogo_frontend/ (publicado pelo GitHub Pages a cada push no `main`).
+Jogue direto em https://kauaxp77.github.io/BugBuster/ (publicado pelo GitHub Pages a cada push no `main`).
 
 Para rodar localmente, abra o arquivo `index.html` em qualquer navegador moderno. Não requer servidor, Node.js ou bundler.
 
